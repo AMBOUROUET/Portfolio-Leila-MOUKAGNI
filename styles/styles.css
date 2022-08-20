@@ -596,6 +596,7 @@ section {
   display: flex;
   margin-top: 2rem;
 }
+
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
   align-items: center;
@@ -624,7 +625,11 @@ section {
 .contact-content-con .right-contact {
   flex: 3;
   margin-left: 3rem;
+  
+  
 }
+
+
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem 0;
 }
@@ -640,16 +645,23 @@ section {
   width: 100%;
   color: var(--color-white);
   resize: none;
+  margin-left: -10px;
+  margin-top: 12px;
 }
 .contact-content-con .right-contact .i-c-2 {
   display: flex;
+ 
 }
 .contact-content-con .right-contact .i-c-2 :last-child {
-  margin-left: 1.5rem;
+  margin-left: 0.1rem;
 }
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
+  width: 60px;
+  height: 20px;
+  font-size: 70px;
+  
 }
 
 /*Independed components*/

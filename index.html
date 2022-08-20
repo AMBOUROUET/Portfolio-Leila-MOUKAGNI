@@ -323,23 +323,34 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form action="https://formspree.io/f/mrgdgnpg"
+                        method="POST">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="Ton nom">
-                                <input type="email" required placeholder="Ton e-mail">
+                                <label>
+                                    Ton nom:
+                                    <input type="nom" name="nom">
+                                  </label>
+                                  <label>
+                                    Ton E-mail:
+                                    <input type="email" name="email">
+                                  </label>
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="Entre ton sujet">
+                                <label>
+                                    Entre ton sujet:
+                                    <input type="sujet" name="sujet">
+                                  </label>
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message"></textarea>
+                                <label>
+                                    Ton message:
+                                    <textarea name="message"></textarea>
+                                  </label>
                             </div>
                             
                             <div class="submit-btn">
-                                <a href="mailto:leilamoukagni@gmail.com" class="main-btn">
-                                    <span class="btn-text">Envoyez</span>
-                                    
-                                </a>
+                                <button type="submit">Envoyez</button>
+
                             </div>
                         </form>
                     </div>
